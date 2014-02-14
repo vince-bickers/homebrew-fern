@@ -1,10 +1,12 @@
-homebrew-fern
+fern:homebrew
 =============
 Welcome to the OS/X installer for the Fern Server graph database engine. (If you're looking for the Fern Client installer,
 please visit this page instead).
 
-To get started with Fern immediately, click here, or if you want to know a little bit about Fern first, before you
-install it read on...
+Installing Fern
+---------------
+To install Fern on OS/X, [click here](https://github.com/vince-bickers/homebrew-fern/wiki/Install-Fern-on-OS-X-using-homebrew),
+or if you want to know a little bit more about Fern first, read on...
 
 About Fern
 ----------
@@ -44,3 +46,5 @@ many good graph visualisation packages out there which you should be able to int
 Tinkerpop integration
 ---------------------
 There is currently no plan to support Tinkerpop. You can find out why here.
+
+[Install](https://github.com/vince-bickers/homebrew-fern/wiki/Install-Fern-on-OS-X-using-homebrew),
