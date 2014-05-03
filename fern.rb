@@ -2,8 +2,7 @@ require 'formula'
 
 class Fern < Formula
   homepage 'http://org.mambofish.fern'
-  url "https://dl.dropboxusercontent.com/s/4nzlps9wwd8l1sy/fernserver-0.1.tar.gz"
-  sha1 "9788af3b20f3de09a9371aa61a4e2cd06c2277a1"
+  url "https://dl.dropboxusercontent.com/s/x4d7xiuhu4fuzdu/fernserver-0.1.tar.gz"
   version '0.1'
 
   def install
