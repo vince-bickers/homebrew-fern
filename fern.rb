@@ -12,8 +12,6 @@ class Fern < Formula
     bin.install_symlink "#{libexec}/#{version}/bin/run" => "fern"
   end
 
-  #plist_options :manual => "#{HOMEBREW_PREFIX}/bin/run"
-  
   plist_options :login => true
 
   def plist; <<-EOS.undent
@@ -28,23 +26,19 @@ class Fern < Formula
         <key>KeepAlive</key>
           <false/>
         <key>OnDemand</key>
-          <false/>
+          <true/>
         <key>Disabled</key>
           <false/>
         <key>ProgramArguments</key>
         <array>
-          <string>/usr/local/bin/fern</string>
+          <string>/usr/local/Cellar/fern/#{version}/bin/fern</string>
         </array>
-        <key>UserName</key>
-          <string>#{`whoami`.chomp}</string>
         <key>WorkingDirectory</key>
           <string>#{var}</string>
       </dict>
     </plist>
     EOS
   end
-
-
 
   def caveats; <<-EOS.undent
 
